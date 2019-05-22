@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/inkshir/Development/OOP/Base.h
+iostream
+-
+
+/Users/inkshir/Development/OOP/Container.h
+
+/Users/inkshir/Development/OOP/Shapes.cpp
+exception
+-
+Shapes.h
+/Users/inkshir/Development/OOP/Shapes.h
+
+/Users/inkshir/Development/OOP/Shapes.h
+cmath
+-
+iostream
+-
+utility
+-
+Base.h
+/Users/inkshir/Development/OOP/Base.h
+Container.h
+/Users/inkshir/Development/OOP/Container.h
+
